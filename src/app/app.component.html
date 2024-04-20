@@ -1,0 +1,31 @@
+<mat-toolbar style="background-color: #1b76f1 ;color: #ffff" class="app-header bg-primary">
+    
+  <div class="container d-flex justify-content-between align-items-center">
+    <h4 class="font-weight-bold text-xl text-light">Todo Management</h4>
+    <div class="d-flex gap-3">
+
+      <span *ngIf="!isLoggedIn && isTaskPage" role="button" class="text-white cursor-pointer" routerLink="/login">Login</span>
+
+      <ng-container *ngIf="isLoggedIn && !isLoginPage && !isRegisterPage">
+        <span role="button" class="text-white cursor-pointer" (click)="logout()">Logout</span>
+        <span class="text-white">Hi {{ userName }}</span>
+      </ng-container>
+            <span *ngIf="isRegisterPage" role="button" class="text-white cursor-pointer" routerLink="/login">Login</span>
+
+      <span *ngIf="isLoginPage" role="button" class="text-white cursor-pointer" routerLink="/register">Register</span>
+
+
+    </div>
+  </div>
+
+
+</mat-toolbar>
+
+
+
+<router-outlet></router-outlet>
+
+
+
+
+

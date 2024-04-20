@@ -1,0 +1,36 @@
+{
+  "fruit": [
+    {
+      "id": "1",
+      "name": "apple",
+      "quantity": 10,
+      "price": 100
+    },
+    {
+      "id": "4",
+      "name": "yahyasaqi0@gmail.com",
+      "quantity": "12",
+      "price": "12"
+    },
+    {
+      "id": "17aa",
+      "name": "ali",
+      "quantity": "ss",
+      "price": 0,
+      "description": "ss"
+    },
+    {
+      "id": "3dfb",
+      "name": "ali",
+      "quantity": "2024-04-15",
+      "price": 0,
+      "description": "je voudriaa becoup d'arjent"
+    },
+    {
+      "id": "23c5",
+      "name": "vv",
+      "date": "2024-04-15",
+      "description": "e, description, price) {    this.id = id;    this.name = name;    this.description = description;    this.price = price;  }}"
+    }
+  ]
+}
